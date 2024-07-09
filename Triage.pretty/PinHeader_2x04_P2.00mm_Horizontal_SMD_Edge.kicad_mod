@@ -1,0 +1,170 @@
+(footprint "PinHeader_2x04_P2.00mm_Horizontal_SMD_Edge"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "pin header 8 positions 2 rows edge mount")
+	(tags "pin header 8 positions 2 rows edge mount")
+	(property "Reference" "REF**"
+		(at 0 -7.3 0)
+		(layer "F.SilkS")
+		(uuid "c5372165-ea02-46ee-b8ca-3a8b856d2d32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "8P P2mm edge "
+		(at 0 -5.5 0)
+		(layer "F.Fab")
+		(uuid "7a32f069-17e5-49c9-8521-e852eaccb9ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(fp_rect
+		(start 1.905 -3.81)
+		(end 2.667 3.556)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "83b60b30-0d8d-46d6-965e-930d8e6d361d")
+	)
+	(fp_rect
+		(start 2.667 -3.302)
+		(end 6.477 -2.794)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "90b622a4-b328-472c-98f5-360dd228a92d")
+	)
+	(fp_rect
+		(start 2.667 -1.27)
+		(end 6.477 -0.762)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "ec0d27cb-2354-4301-a916-3f2e08fff35b")
+	)
+	(fp_rect
+		(start 2.667 0.762)
+		(end 6.477 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "eae034d4-53e5-4956-bc80-ba00dd56f378")
+	)
+	(fp_rect
+		(start 2.667 2.54)
+		(end 6.477 3.048)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a7150b9b-ba82-4a12-aa28-a1cc6cd9e724")
+	)
+	(pad "1" connect rect
+		(at 0 -3.048 270)
+		(size 1.016 3.429)
+		(layers "F.Cu" "F.Mask")
+		(uuid "030282c6-b7eb-480e-b7f3-2c69cded919a")
+	)
+	(pad "2" connect rect
+		(at 0 -3.048 90)
+		(size 1.016 3.429)
+		(layers "B.Cu" "B.Mask")
+		(uuid "5899b56c-1120-4764-b063-ada286a6bc44")
+	)
+	(pad "3" connect rect
+		(at 0 -1.016 90)
+		(size 1.016 3.429)
+		(layers "F.Cu" "F.Mask")
+		(uuid "94f6dad7-ba1c-41db-b7cf-6f717960b9a0")
+	)
+	(pad "4" connect rect
+		(at 0 -1.016 270)
+		(size 1.016 3.429)
+		(layers "B.Cu" "B.Mask")
+		(uuid "a164ed61-3c2c-4397-b46c-eb8bf042ccb3")
+	)
+	(pad "5" connect rect
+		(at 0 1.016 90)
+		(size 1.016 3.429)
+		(layers "F.Cu" "F.Mask")
+		(uuid "f115247c-c042-47c7-b590-c181238a59be")
+	)
+	(pad "6" connect rect
+		(at 0 1.016 270)
+		(size 1.016 3.429)
+		(layers "B.Cu" "B.Mask")
+		(uuid "07b257a6-606d-450b-b71a-1dc984da4fa0")
+	)
+	(pad "7" connect rect
+		(at 0 2.794 270)
+		(size 1.016 3.429)
+		(layers "F.Cu" "F.Mask")
+		(uuid "407074ea-ccca-42a2-85e6-0d973636821c")
+	)
+	(pad "8" connect rect
+		(at 0 2.794 90)
+		(size 1.016 3.429)
+		(layers "B.Cu" "B.Mask")
+		(uuid "f36de29f-681d-4f93-a483-36791d54ee80")
+	)
+)

@@ -1,0 +1,148 @@
+(footprint "CK-PTS820"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "87ee9409-96be-41d4-ab39-1a7f82a39f41")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CK-PTS820"
+		(at 0 3.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8cd9201b-1d29-47ee-9146-f8cc394a51d1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "00000000-0000-0000-0000-000000000000")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 -0.9)
+		(end 0.4 -0.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "c343754a-424c-44e9-95c0-7c793603642a")
+	)
+	(fp_circle
+		(center 0 0.9)
+		(end 0.4 0.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "88559300-b7c6-4cf1-bc6d-76a22cf5eb5a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a1a616af-fe3c-4823-9d84-b59d66e6b1e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.1 0 90)
+		(size 1.4 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d3955b17-eeb7-4303-b6dd-68d4065d8903")
+	)
+	(pad "2" smd rect
+		(at 2.1 0 90)
+		(size 1.4 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "8a6e47d3-11a9-4f84-aeee-c9a4a081e267")
+	)
+	(pad "3" smd rect
+		(at -1.6 -1.5 180)
+		(size 1.15 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "946868fa-be6d-4b3c-9757-e6e23fff432b")
+	)
+	(pad "3" smd rect
+		(at -1.6 1.5 180)
+		(size 1.15 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e8d00546-cf12-4ed9-be13-ba3d5b60721d")
+	)
+	(pad "3" smd rect
+		(at 1.6 -1.5 180)
+		(size 1.15 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6df83299-2ebd-455b-8ac7-d97f81e3762f")
+	)
+	(pad "3" smd rect
+		(at 1.6 1.5 180)
+		(size 1.15 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "db101bd7-7e95-447a-82be-d6ab68bf5f01")
+	)
+	(model "${KIUSRLIB}/packages3D/Button.3dshapes/PTS820J20KPSMTRLFS.stp"
+		(offset
+			(xyz -2.25 1.45 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)
